@@ -29,3 +29,21 @@ yarn-error.log*
 
 # Optional eslint cache
 .eslintcache
+
+# Node modules
+node_modules/
+
+# Ionic build directories
+build/
+www/
+
+# Logs
+*.log
+
+# Editor directories
+.vscode/
+.idea/
+
+# Operating System files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,98 @@
+/* Estilos generales del formulario */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 50px;
+  padding: 20px;
+  max-width: 600px; /* Limita el ancho del formulario */
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  height: 100vh; /* Utiliza toda la altura de la pantalla */
+  overflow-y: auto; /* Habilita desplazamiento vertical si el contenido es muy largo */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Hace que el formulario ocupe todo el ancho disponible */
+}
+
+div {
+  margin-bottom: 15px; /* Espaciado entre los campos */
+  width: 100%;
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%; /* Hace que el botón ocupe todo el ancho disponible */
+  margin-top: 20px;
+}
+
+button:disabled {
+  background-color: #d3d3d3;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+p {
+  text-align: center;
+  color: green;
+  font-weight: bold;
+}
+
+.button-container {
+  display: flex; /* Usamos flexbox para alinear los botones */
+  justify-content: center; /* Centra los botones horizontalmente */
+  gap: 10px; /* Espacio entre los botones */
+}
+
+.submit-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.submit-button:disabled {
+  background-color: #ccc;
+}
+
+.scrollable-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto; /* Permitir desplazamiento vertical */
+}
+
+.form-container {
+  max-width: 500px; /* Opcional: define un ancho máximo para centrar el formulario */
+  padding: 20px;
+  margin: 0 auto;
+}
